@@ -1,66 +1,129 @@
-*{
+* {
     padding: 0 !important;
     margin: 0 !important;
     box-sizing: border-box !important;
 }
+
 body {
     background-color: #15171E !important;
 }
-.overall{
+
+.overall {
     background-color: #3A3440 !important;
     width: fit-content;
     height: fit-content;
     border-bottom: 1px solid #3A3440 !important;
-    border-left: 1px solid #3A3440 !important ;
+    border-left: 1px solid #3A3440 !important;
     border-right: 1px solid #3A3440 !important;
-    
+
 
 }
-header{
+
+header {
     background-color: #15171E;
     border-bottom: 1px solid #3A3440 !important;
-    border-left: 1px solid #3A3440 !important ;
+    border-left: 1px solid #3A3440 !important;
     border-right: 1px solid #3A3440 !important;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 
 }
-header>img{
+
+header>img {
     height: 20px !important;
 }
-.logo{
-   height: 17px !important; 
+
+.logo {
+    height: 17px !important;
 }
-.search-img{
+
+.search-img {
     height: 30px !important;
 }
+
 .manu {
     height: 15px !important;
 }
-.drp-btn{
+
+.drp-btn {
     color: white !important;
     border: none !important;
 }
 
-.logo-2{
+.logo-2 {
     height: 10px !important;
 }
-.main{
+
+.main {
     background-color: #15171E !important;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 30px !important;
 
 }
-.content{
+
+.content {
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
 }
-.about{
+
+.about {
     font-family: Arial, Helvetica, sans-serif !important;
     font-size: 30px !important;
     font-weight: bolder !important;
+}
+
+.text-two {
+    color: rgb(219, 216, 216) !important;
+    font-weight: 400 !important;
+}
+
+.buttons>button {
+    padding: 5px 25px !important;
+    border-radius: 10px !important;
+    background-color: transparent !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.btn-1 {
+    border: 3px solid transparent;
+    animation: rotation 50s linear infinite;
+    background: linear-gradient(#15171E, #15171E) padding-box, linear-gradient(to left, #B169F9, #844BBD, #9f59e1, #4D2178, #451C78, #612F92, #472476);
+    background-size: 200% 200% !important;
+    transition: all 0.2s ease;
+}
+
+.btn-1:hover {
+
+    transform: scale(1.1);
+}
+
+@keyframes rotation {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+
+}
+
+.btn-2 {
+    border: 1px solid #3A3440 !important;
+}
+
+.btn-2:hover {
+    background-color: white !important;
+    color: black !important;
+    transition: all 0.2s ease;
+    transform: scale(1.1);
 }
