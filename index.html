@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
 </head>
 
 <body>
-    <div class="overall container-xxl mx-auto">
+    <div class="overall  container-xxxl mx-auto">
 
         <header class="  mx-md-auto d-flex justify-content-between px-4 py-4 px-md-5 align-items-center mx-my-auto">
 
@@ -38,29 +38,79 @@
 
             <div class="d-flex align-items-center gap-4">
                 <img class="search-img d-lg-none" src="asset/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
-                <img c class="d-lg-none manu" src="asset/download.svg" alt="">
+
+
+                <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"> <img c class="d-lg-none manu" src="asset/download.svg"
+                        alt=""></button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+
+                        <img class="side-logo " src="asset/imgi_4_vite-light.t8GCa_VF.svg " alt="">
+                        <img src="asset/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                        </button>
+                    </div>
+                    <div class="offcanvas-body">
+                        ...
+                    </div>
+                </div>
+
+
             </div>
+
+
+
         </header>
 
 
 
 
-        <div class="main">
+        <div class="main  d-md-flex">
 
-            <div class=" d-flex justify-content-center align-items-center gap-2 ">
-                <p class=" text-light">By</p>
-                <img class="logo-2" src="asset/download (3).svg" alt="">
+            <div class="first-content ">
+
+                <div class=" d-flex justify-content-center align-items-center gap-2 justify-content-md-start ps-md-5 mt-5">
+                    <p class=" text-light">By</p>
+                    <img class="logo-2" src="asset/download (3).svg" alt="">
+                </div>
+
+                <div class="content">
+                    <p class="text-light py-3 about px-5 text-center buid text-md-start">The Build Tool for the Web</p>
+                    <p class="text-two px-5 py-1 text-center text-md-start">Vite is a blazing fast frontend build tool
+                        powering the next
+                        generation of web applications.</p>
+                </div>
+
+
+                <div class="buttons d-flex justify-content-center gap-3 mt-5">
+                    <button class="btn-1">Get Started</button>
+                    <button class="btn-2">View on GitHub</button>
+                </div>
+
+
+                <div class="d-flex mt-5 mb-5 ms-5 gap-2 text-light box-one d-none d-md-block">
+                    <p>go</p>
+                    <p>come</p>
+                    <p>come</p>
+                    <p>come</p>
+                    <p>come</p>
+                </div>
             </div>
 
-            <div class="content">
-                <p class="text-light py-3 about px-5">The Build Tool for the Web</p>
-                <p class="text-two px-5 py-1">Vite is a blazing fast frontend build tool powering the next generation of web applications.</p>
+
+
+            <div class="second-content">
+
+                <div class="d-flex justify-content-center">
+                    <img class="animation-img" src="asset/animation" alt="">
+                </div>
             </div>
 
-            <div class="buttons d-flex justify-content-center gap-3 mt-5">
-                <button class="btn-1">Get Started</button>
-                <button class="btn-2">View on GitHub</button>
-            </div>
+
+
         </div>
 
 
@@ -74,7 +124,7 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
-        
+
 
 </body>
 
