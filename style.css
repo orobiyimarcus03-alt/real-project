@@ -177,6 +177,14 @@ header>img {
     color: white;
 }
 
+.companies {
+    overflow: hidden !important;
+}
+
+.companies div img {
+    height: 50px !important;
+}
+
  @media (max-width:767px) {
 
     .first-content {
